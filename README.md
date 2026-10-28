@@ -1,3 +1,29 @@
+<!-- gully-header:start -->
+<p align="center">
+  <a href="https://gullypay.xyz">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/gullypay-logo-ondark-1200w.png">
+      <img alt="Gully Pay" src=".github/assets/gullypay-logo-onlight-1200w.png" width="300">
+    </picture>
+  </a>
+</p>
+
+<p align="center"><b>x402 Web3 Payments: checkout, merchant OS and the glUSD stablecoin.</b></p>
+
+<p align="center">x402 HTTP payments protocol, the base of Gully Pay settlement on Gully Chain.</p>
+
+<p align="center">
+  <a href="https://gullypay.xyz"><img src="https://img.shields.io/badge/gullypay.xyz-16B2FE?style=for-the-badge&labelColor=09131F&logo=googlechrome&logoColor=09131F" alt="Website"></a>
+  <a href="https://gullypay.xyz/docs"><img src="https://img.shields.io/badge/Docs-0B1524?style=for-the-badge&labelColor=09131F&logo=readthedocs&logoColor=16B2FE" alt="Docs"></a>
+  <a href="https://discord.com/invite/tY2ErsNNBp"><img src="https://img.shields.io/badge/Discord-0B1524?style=for-the-badge&labelColor=09131F&logo=discord&logoColor=5865F2" alt="Discord"></a>
+  <a href="https://x.com/Gully_Labs"><img src="https://img.shields.io/badge/@Gully__Labs-0B1524?style=for-the-badge&labelColor=09131F&logo=x&logoColor=white" alt="X"></a>
+</p>
+
+<p align="center"><sub>A Gully Pay fork of <a href="https://github.com/x402-foundation/x402">x402-foundation/x402</a>, maintained by <a href="https://gullylabs.xyz">Gully Labs</a>. It is used under its Apache-2.0 licence; the upstream LICENSE, copyright and attribution notices are kept unchanged. The upstream README follows below as published. Not affiliated with or endorsed by x402-foundation.</sub></p>
+
+---
+<!-- gully-header:end -->
+
 # x402
 
 [![Slack Community](https://img.shields.io/badge/Slack-Join%20Community-4A154B?logo=slack&logoColor=white)](http://slack.x402.org/)
@@ -166,3 +192,17 @@ See `specs/schemes` for full scheme specifications; `specs/schemes/exact/scheme_
 Because a scheme is a logical way of moving money, the way a scheme is implemented can be different for different blockchains. (ex: the way you need to implement `exact` on Ethereum is very different from the way you need to implement `exact` on Solana).
 
 Clients and facilitators must explicitly support different `(scheme, network)` pairs in order to be able to create proper payloads and verify / settle payments.
+
+
+<!-- gully-footer:start -->
+---
+
+<p align="center">
+  <a href="https://gullylabs.xyz">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/powered-by-gully-labs-dark-2x.png">
+      <img alt="Powered by Gully Labs" src=".github/assets/powered-by-gully-labs-light-2x.png" width="254" height="64">
+    </picture>
+  </a>
+</p>
+<!-- gully-footer:end -->
